@@ -21,13 +21,13 @@ Before you get started, make sure you have the following requirements installed:
 ### 1. Clone this repository.
 
 ```bash
-git clone https://github.com/anuraagnagar/flask-internationalization-app.git
+git clone https://github.com/anuraagnagar/flask-internationalization.git
 ```
 
 ### 2. Change the Directory.
 
 ```bash
-cd flask-internationalization-app
+cd flask-internationalization
 ```
 
 ### 3. Create virtual environment.
