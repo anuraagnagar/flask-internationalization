@@ -1,0 +1,237 @@
+# Spanish translations for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-10-19 18:00+0530\n"
+"PO-Revision-Date: 2023-10-19 18:34+0530\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.0\n"
+
+#: app.py:12 template/index.html:35
+msgid "English"
+msgstr "Inglés"
+
+#: app.py:13 template/index.html:39
+msgid "Spanish"
+msgstr "Español"
+
+#: app.py:14 template/index.html:37
+msgid "French"
+msgstr "Francés"
+
+#: app.py:15 template/index.html:41
+msgid "Hindi"
+msgstr "hindi"
+
+#: template/index.html:52
+msgid "What is Python?"
+msgstr "¿Qué es Python?"
+
+#: template/index.html:54
+msgid "Summary:"
+msgstr "Resumen:"
+
+#: template/index.html:54
+msgid ""
+" in this tutorial, you’ll understand what Python programming\n"
+"                        language is and why you should start learning "
+"Python today."
+msgstr "En este tutorial, comprenderá qué es el lenguaje de programación Python y por qué debería comenzar a aprender Python hoy."
+
+#: template/index.html:57
+msgid "What is Python programming language?"
+msgstr "¿Qué es el lenguaje de programación Python?"
+
+#: template/index.html:58
+msgid "Python is a "
+msgstr "Python es un "
+
+#: template/index.html:58
+msgid "high-level, general-purpose, interpreted"
+msgstr "de alto nivel, de propósito general, interpretado"
+
+#: template/index.html:59
+msgid " programming language."
+msgstr " lenguaje de programación."
+
+#: template/index.html:61
+msgid "High-level"
+msgstr "Nivel alto"
+
+#: template/index.html:62
+msgid ""
+"Python is a high-level programming language that makes it easy to learn. "
+"Python\n"
+"                            doesn’t require you to understand the details"
+" of the computer\n"
+"                            in order to develop programs efficiently."
+msgstr "Python es un lenguaje de programación de alto nivel que facilita su aprendizaje. Python no requiere que comprendas los detalles de la computadora para poder desarrollar programas de manera eficiente."
+
+#: template/index.html:66
+msgid "General-purpose"
+msgstr "Propósito general"
+
+#: template/index.html:67
+msgid ""
+"Python is a general-purpose language. It means that you can use Python in"
+" various\n"
+"                            domains including:"
+msgstr "Python es un lenguaje de propósito general. Significa que puedes usar Python en varios dominios, incluidos:"
+
+#: template/index.html:70
+msgid "Web applications"
+msgstr "aplicaciones web"
+
+#: template/index.html:71
+msgid "Big data applications"
+msgstr "Aplicaciones de grandes datos"
+
+#: template/index.html:72
+msgid "Testing"
+msgstr "Pruebas"
+
+#: template/index.html:73
+msgid "Automation"
+msgstr "Automatización"
+
+#: template/index.html:74
+msgid "Data science, machine learning, and AI"
+msgstr "Ciencia de datos, aprendizaje automático e inteligencia artificial"
+
+#: template/index.html:75
+msgid "Desktop software"
+msgstr "software de escritorio"
+
+#: template/index.html:76
+msgid "Mobile apps"
+msgstr "Aplicaciones móviles"
+
+#: template/index.html:78
+msgid ""
+"The targeted language like SQL which can be used for querying data from "
+"relational\n"
+"                            databases."
+msgstr "El lenguaje de destino, como SQL, que se puede utilizar para consultar datos de bases de datos relacionales."
+
+#: template/index.html:81
+msgid "Interpreted"
+msgstr "Interpretado"
+
+#: template/index.html:82
+msgid ""
+"Python is an interpreted language. To develop a Python program, you write"
+" Python\n"
+"                            code into a file called source code."
+msgstr "Python es un lenguaje interpretado. Para desarrollar un programa Python, se escribe código Python en un archivo llamado código fuente."
+
+#: template/index.html:84
+msgid ""
+"To execute the source code, you need to convert it to the machine "
+"language that the\n"
+"                            computer can understand. And the Python "
+msgstr "Para ejecutar el código fuente, debe convertirlo al lenguaje de máquina que la computadora pueda entender. Y el "
+
+#: template/index.html:86
+msgid "interpreter"
+msgstr "intérprete"
+
+#: template/index.html:86
+msgid ""
+" turns the source code, line by line,\n"
+"                            once at a time, into the machine code when "
+"the Python program executes."
+msgstr " de Python convierte el código fuente, línea por línea, una vez a la vez, en código de máquina cuando se ejecuta el programa Python."
+
+#: template/index.html:89
+msgid "Compiled languages like Java and C# use a "
+msgstr "Los lenguajes compilados como Java y C# utilizan un "
+
+#: template/index.html:89
+msgid "compiler"
+msgstr "compilador"
+
+#: template/index.html:90
+msgid " that compiles the whole source code before the program executes."
+msgstr " que compila todo el código fuente antes de que se ejecute el programa."
+
+#: template/index.html:92
+msgid "Why Python?"
+msgstr "¿Por qué Python?"
+
+#: template/index.html:93
+msgid ""
+"Python increases your productivity. Python allows you to solve complex "
+"problems in less\n"
+"                        time and fewer lines of code. It’s quick to make "
+"a prototype in Python."
+msgstr "Python aumenta su productividad. Python te permite resolver problemas complejos en menos tiempo y menos líneas de código. Es rápido crear un prototipo en Python."
+
+#: template/index.html:95
+msgid ""
+"Python becomes a solution in many areas across industries, from web "
+"applications to data\n"
+"                        science and machine learning."
+msgstr "Python se convierte en una solución en muchas áreas de todas las industrias, desde aplicaciones web hasta ciencia de datos y aprendizaje automático."
+
+#: template/index.html:97
+msgid ""
+"Python is quite easy to learn in comparison with other programming "
+"languages. Python\n"
+"                        syntax is clear and beautiful."
+msgstr "Python es bastante fácil de aprender en comparación con otros lenguajes de programación. La sintaxis de Python es clara y hermosa."
+
+#: template/index.html:99
+msgid ""
+"Python has a large ecosystem that includes lots of libraries and "
+"frameworks."
+msgstr "Python tiene un gran ecosistema que incluye muchas bibliotecas y marcos."
+
+#: template/index.html:100
+msgid ""
+"Python is cross-platform. Python programs can run on Windows, Linux, and "
+"macOS."
+msgstr "Python es multiplataforma. Los programas Python pueden ejecutarse en Windows, Linux y macOS."
+
+#: template/index.html:101
+msgid ""
+"Python has a huge community. Whenever you get stuck, you can get help "
+"from an active\n"
+"                        community."
+msgstr "Python tiene una gran comunidad. Siempre que te quedes atascado, puedes obtener ayuda de una comunidad activa."
+
+#: template/index.html:104
+msgid "Python developers are in high demand."
+msgstr "Los desarrolladores de Python tienen una gran demanda."
+
+#: template/index.html:105
+msgid "Summary"
+msgstr "Resumen"
+
+#: template/index.html:107
+msgid ""
+"Python is an interpreted, high-level, general-purpose programming "
+"language."
+msgstr "Python es un lenguaje de programación interpretado, de alto nivel y de propósito general."
+
+#: template/index.html:108
+msgid ""
+"Python becomes the solution in many domains from web applications, data "
+"analysis,\n"
+"                            data science, machine learning, and AI."
+msgstr "Python se convierte en la solución en muchos dominios, desde aplicaciones web, análisis de datos, ciencia de datos, aprendizaje automático e inteligencia artificial."
+
+#: template/index.html:110
+msgid "Use Python 3 for the new development."
+msgstr "Utilice Python 3 para el nuevo desarrollo."
+

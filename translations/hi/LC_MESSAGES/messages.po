@@ -1,0 +1,237 @@
+# Hindi translations for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-10-19 18:00+0530\n"
+"PO-Revision-Date: 2023-10-19 18:01+0530\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: hi\n"
+"Language-Team: hi <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.0\n"
+
+#: app.py:12 template/index.html:35
+msgid "English"
+msgstr "अंग्रेज़ी"
+
+#: app.py:13 template/index.html:39
+msgid "Spanish"
+msgstr "स्पैनिश"
+
+#: app.py:14 template/index.html:37
+msgid "French"
+msgstr "फ़्रेंच"
+
+#: app.py:15 template/index.html:41
+msgid "Hindi"
+msgstr "हिंदी"
+
+#: template/index.html:52
+msgid "What is Python?"
+msgstr "पायथन क्या है?"
+
+#: template/index.html:54
+msgid "Summary:"
+msgstr "सारांश:"
+
+#: template/index.html:54
+msgid ""
+" in this tutorial, you’ll understand what Python programming\n"
+"                        language is and why you should start learning "
+"Python today."
+msgstr "इस ट्यूटोरियल में, आप समझेंगे कि पायथन प्रोग्रामिंग भाषा क्या है और आपको आज ही पायथन सीखना क्यों शुरू करना चाहिए।"
+
+#: template/index.html:57
+msgid "What is Python programming language?"
+msgstr "पायथन प्रोग्रामिंग भाषा क्या है?"
+
+#: template/index.html:58
+msgid "Python is a "
+msgstr "पायथन एक "
+
+#: template/index.html:58
+msgid "high-level, general-purpose, interpreted"
+msgstr "उच्च-स्तरीय, सामान्य-उद्देश्य, व्याख्या की गई"
+
+#: template/index.html:59
+msgid " programming language."
+msgstr " प्रोग्रामिंग भाषा है।"
+
+#: template/index.html:61
+msgid "High-level"
+msgstr "उच्च स्तर"
+
+#: template/index.html:62
+msgid ""
+"Python is a high-level programming language that makes it easy to learn. "
+"Python\n"
+"                            doesn’t require you to understand the details"
+" of the computer\n"
+"                            in order to develop programs efficiently."
+msgstr "पायथन एक उच्च स्तरीय प्रोग्रामिंग भाषा है जो इसे सीखना आसान बनाती है। प्रोग्रामों को कुशलतापूर्वक विकसित करने के लिए पायथन को आपको कंप्यूटर के विवरण को समझने की आवश्यकता नहीं है।"
+
+#: template/index.html:66
+msgid "General-purpose"
+msgstr "सामान्य उद्देश्य"
+
+#: template/index.html:67
+msgid ""
+"Python is a general-purpose language. It means that you can use Python in"
+" various\n"
+"                            domains including:"
+msgstr "पायथन एक सामान्य प्रयोजन वाली भाषा है। इसका मतलब है कि आप पायथन का उपयोग विभिन्न डोमेन में कर सकते हैं जिनमें शामिल हैं:"
+
+#: template/index.html:70
+msgid "Web applications"
+msgstr "वेब अनुप्रयोग"
+
+#: template/index.html:71
+msgid "Big data applications"
+msgstr "बड़े डेटा अनुप्रयोग"
+
+#: template/index.html:72
+msgid "Testing"
+msgstr "परिक्षण"
+
+#: template/index.html:73
+msgid "Automation"
+msgstr "स्वचालन"
+
+#: template/index.html:74
+msgid "Data science, machine learning, and AI"
+msgstr "डेटा साइंस, मशीन लर्निंग और एआई"
+
+#: template/index.html:75
+msgid "Desktop software"
+msgstr "डेस्कटॉप सॉफ्टवेयर"
+
+#: template/index.html:76
+msgid "Mobile apps"
+msgstr "मोबाइल एप्लिकेशन"
+
+#: template/index.html:78
+msgid ""
+"The targeted language like SQL which can be used for querying data from "
+"relational\n"
+"                            databases."
+msgstr "SQL जैसी लक्षित भाषा जिसका उपयोग रिलेशनल डेटाबेस से डेटा क्वेरी करने के लिए किया जा सकता है।"
+
+#: template/index.html:81
+msgid "Interpreted"
+msgstr "व्याख्या की"
+
+#: template/index.html:82
+msgid ""
+"Python is an interpreted language. To develop a Python program, you write"
+" Python\n"
+"                            code into a file called source code."
+msgstr "पाइथॉन एक व्याख्यात्मक भाषा है। पायथन प्रोग्राम विकसित करने के लिए, आप पायथन कोड को सोर्स कोड नामक फ़ाइल में लिखते हैं।"
+
+#: template/index.html:84
+msgid ""
+"To execute the source code, you need to convert it to the machine "
+"language that the\n"
+"                            computer can understand. And the Python "
+msgstr "स्रोत कोड को निष्पादित करने के लिए, आपको इसे मशीनी भाषा में परिवर्तित करना होगा जिसे कंप्यूटर समझ सके। और पायथन "
+
+#: template/index.html:86
+msgid "interpreter"
+msgstr "दुभाषिया"
+
+#: template/index.html:86
+msgid ""
+" turns the source code, line by line,\n"
+"                            once at a time, into the machine code when "
+"the Python program executes."
+msgstr " जब पायथॉन प्रोग्राम निष्पादित होता है तो स्रोत कोड को, लाइन दर लाइन, एक समय में एक बार, मशीन कोड में बदल देता है।"
+
+#: template/index.html:89
+msgid "Compiled languages like Java and C# use a "
+msgstr "जावा और सी# जैसी संकलित भाषाएं एक "
+
+#: template/index.html:89
+msgid "compiler"
+msgstr "कंपाइलर का उपयोग"
+
+#: template/index.html:90
+msgid " that compiles the whole source code before the program executes."
+msgstr " करती हैं जो प्रोग्राम निष्पादित होने से पहले संपूर्ण स्रोत कोड को संकलित करता है।"
+
+#: template/index.html:92
+msgid "Why Python?"
+msgstr "पाइथॉन क्यों?"
+
+#: template/index.html:93
+msgid ""
+"Python increases your productivity. Python allows you to solve complex "
+"problems in less\n"
+"                        time and fewer lines of code. It’s quick to make "
+"a prototype in Python."
+msgstr "पाइथॉन आपकी उत्पादकता बढ़ाता है। पायथन आपको जटिल समस्याओं को कम समय और कोड की कम पंक्तियों में हल करने की अनुमति देता है। पाइथॉन में प्रोटोटाइप बनाना त्वरित है।"
+
+#: template/index.html:95
+msgid ""
+"Python becomes a solution in many areas across industries, from web "
+"applications to data\n"
+"                        science and machine learning."
+msgstr "वेब एप्लिकेशन से लेकर डेटा साइंस और मशीन लर्निंग तक, उद्योगों के कई क्षेत्रों में पायथन एक समाधान बन गया है।"
+
+#: template/index.html:97
+msgid ""
+"Python is quite easy to learn in comparison with other programming "
+"languages. Python\n"
+"                        syntax is clear and beautiful."
+msgstr "अन्य प्रोग्रामिंग भाषाओं की तुलना में पाइथॉन को सीखना काफी आसान है। पाइथॉन सिंटैक्स स्पष्ट और सुंदर है।"
+
+#: template/index.html:99
+msgid ""
+"Python has a large ecosystem that includes lots of libraries and "
+"frameworks."
+msgstr "पाइथॉन में एक बड़ा पारिस्थितिकी तंत्र है जिसमें बहुत सारे पुस्तकालय और ढांचे शामिल हैं।"
+
+#: template/index.html:100
+msgid ""
+"Python is cross-platform. Python programs can run on Windows, Linux, and "
+"macOS."
+msgstr "पाइथॉन क्रॉस-प्लेटफ़ॉर्म है। पाइथॉन प्रोग्राम विंडोज़, लिनक्स और मैकओएस पर चल सकते हैं।"
+
+#: template/index.html:101
+msgid ""
+"Python has a huge community. Whenever you get stuck, you can get help "
+"from an active\n"
+"                        community."
+msgstr "पाइथॉन का एक बहुत बड़ा समुदाय है। जब भी आप फंस जाएं, तो आप किसी सक्रिय समुदाय से सहायता प्राप्त कर सकते हैं।"
+
+#: template/index.html:104
+msgid "Python developers are in high demand."
+msgstr "पाइथॉन डेवलपर्स की काफी मांग है।"
+
+#: template/index.html:105
+msgid "Summary"
+msgstr "सारांश"
+
+#: template/index.html:107
+msgid ""
+"Python is an interpreted, high-level, general-purpose programming "
+"language."
+msgstr "पाइथॉन एक व्याख्यात्मक, उच्च-स्तरीय, सामान्य-उद्देश्य वाली प्रोग्रामिंग भाषा है।"
+
+#: template/index.html:108
+msgid ""
+"Python becomes the solution in many domains from web applications, data "
+"analysis,\n"
+"                            data science, machine learning, and AI."
+msgstr "वेब एप्लिकेशन, डेटा विश्लेषण, डेटा विज्ञान, मशीन लर्निंग और एआई जैसे कई डोमेन में पायथन समाधान बन गया है।"
+
+#: template/index.html:110
+msgid "Use Python 3 for the new development."
+msgstr "नए विकास के लिए Python 3 का उपयोग करें।"
+
