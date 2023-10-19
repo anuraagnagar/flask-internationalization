@@ -11,9 +11,13 @@
 
 <body>
     <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
-        <div class="container-fluid d-flex justify-content-between">
-            <a class="navbar-brand" href="#">Internationalisation in Flask</a>
-            <div class="navbar-collapse" id="navbarNavDropdown">
+        <div class="container-fluid">
+            <a class="navbar-brand" href=".">Internationalisation in Flask</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -27,16 +31,91 @@
                             </svg>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="{{ url_for('change_language', language='en') }}">
+                                    English ({{ _('English') }})</a></li>
+                            <li><a class="dropdown-item" href="{{ url_for('change_language', language='fr') }}">
+                                    French ({{ _('French') }})</a></li>
+                            <li><a class="dropdown-item" href="{{ url_for('change_language', language='es') }}">
+                                    Spanish ({{ _('Spanish') }})</a></li>
+                            <li><a class="dropdown-item" href="{{ url_for('change_language', language='hi') }}">
+                                    Hindi ({{ _('Hindi') }})</a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div></div>
+    <div class="container">
+        <div class="row justify-content-center my-5">
+            <div class="col-lg-9">
+                <div class="mb-4">
+                    <img src="{{ url_for('static', filename='image/python.jpg') }}" alt="python" class="rounded w-100">
+                </div>
+                <div class="w-100">
+                    <h1>{{ _('What is Python?') }}</h1>
+                    <p class="fs-5">
+                        <b>{{ _('Summary:') }}</b>{{ _(' in this tutorial, you’ll understand what Python programming
+                        language is and why you should start learning Python today.') }}
+                    </p>
+                    <p class="fs-5">{{ _('What is Python programming language?') }}</p>
+                    <p>{{ _('Python is a ') }}<b>{{ _('high-level, general-purpose, interpreted') }}</b>
+                        {{ _(' programming language.') }}</p>
+                    <ol>
+                        <li class="fs-5 mb-3">{{ _('High-level') }}</li>
+                        <p>{{ _('Python is a high-level programming language that makes it easy to learn. Python
+                            doesn’t require you to understand the details of the computer
+                            in order to develop programs efficiently.') }}
+                        </p>
+                        <li class="fs-5 mb-3">{{ _('General-purpose') }}</li>
+                        <p>{{ _('Python is a general-purpose language. It means that you can use Python in various
+                            domains including:') }}</p>
+                        <ul class="mb-3">
+                            <li>{{ _('Web applications') }}</li>
+                            <li>{{ _('Big data applications') }}</li>
+                            <li>{{ _('Testing') }}</li>
+                            <li>{{ _('Automation') }}</li>
+                            <li>{{ _('Data science, machine learning, and AI') }}</li>
+                            <li>{{ _('Desktop software') }}</li>
+                            <li>{{ _('Mobile apps') }}</li>
+                        </ul>
+                        <p>{{ _('The targeted language like SQL which can be used for querying data from relational
+                            databases.') }}
+                        </p>
+                        <li class="fs-5 mb-3">{{ _('Interpreted') }}</li>
+                        <p>{{ _('Python is an interpreted language. To develop a Python program, you write Python
+                            code into a file called source code.') }}</p>
+                        <p>{{ _('To execute the source code, you need to convert it to the machine language that the
+                            computer can understand. And the Python ') }}
+                            <b>{{ _('interpreter') }}</b>{{ _(' turns the source code, line by line,
+                            once at a time, into the machine code when the Python program executes.') }}
+                        </p>
+                        <p>{{ _('Compiled languages like Java and C# use a ') }}<b>{{ _('compiler') }}</b>
+                            {{ _(' that compiles the whole source code before the program executes.') }}</p>
+                    </ol>
+                    <p class="fs-4">{{ _('Why Python?') }}</p>
+                    <p>{{ _('Python increases your productivity. Python allows you to solve complex problems in less
+                        time and fewer lines of code. It’s quick to make a prototype in Python.') }}</p>
+                    <p>{{ _('Python becomes a solution in many areas across industries, from web applications to data
+                        science and machine learning.') }}</p>
+                    <p>{{ _('Python is quite easy to learn in comparison with other programming languages. Python
+                        syntax is clear and beautiful.') }}</p>
+                    <p>{{ _('Python has a large ecosystem that includes lots of libraries and frameworks.') }}</p>
+                    <p>{{ _('Python is cross-platform. Python programs can run on Windows, Linux, and macOS.') }}</p>
+                    <p>{{ _('Python has a huge community. Whenever you get stuck, you can get help from an active
+                        community.') }}
+                    </p>
+                    <p>{{ _('Python developers are in high demand.') }}</p>
+                    <p class="fs-4">{{ _('Summary') }}</p>
+                    <ul>
+                        <li>{{ _('Python is an interpreted, high-level, general-purpose programming language.') }}</li>
+                        <li>{{ _('Python becomes the solution in many domains from web applications, data analysis,
+                            data science, machine learning, and AI.') }}</li>
+                        <li>{{ _('Use Python 3 for the new development.') }}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
