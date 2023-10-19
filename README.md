@@ -71,5 +71,3 @@ Anurag Nagar
 ## Contact
 
 If you have any questions or suggestions, please feel free to contact us at nagaranurag1999@gmail.com
-
-babel.cfg messages.pot translations/
